@@ -1,0 +1,76 @@
+.login {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.login h2 {
+    margin-bottom: 20px;
+    color: #16b978;
+}
+
+.imgcontainer {
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+    color: #000;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button[type="submit"] {
+    width: 75%;
+    padding: 10px;
+    background-color: #16b978;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button[type="submit"]:hover {
+    background-color: #0d8c62;
+}
+
+.container label input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.container .cancelbtn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container .cancelbtn:hover {
+    background-color: #d32f2f;
+}
+
+.container .psw a {
+    color: #000;
+}
